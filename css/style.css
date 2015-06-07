@@ -1,3 +1,7 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
 	background-color: LightGray;
 }
@@ -35,6 +39,7 @@ div.navbar ul.links li > a {
 }
 
 div.navbar ul.links li > a.active{
+	/* font-weight: bold; */
 	color: #4c5058;
 }
 
