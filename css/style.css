@@ -43,14 +43,14 @@ div.navbar ul.links li > a {
 	letter-spacing: 0.03em;
 }
 
-div.navbar ul.links li > a.active{
+div.navbar ul.links li > a.active {
 	/* font-weight: bold; */
-	font-weight: 600;
+	font-weight: 500;
 	color: #4c5058;
 }
 
-a:hover {
-  font-color: black;
+div.navbar ul.links li > a:hover {
+	color: #000;
 }
 
 img.logo {
