@@ -5,3 +5,11 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+
+a:link {
+	text-decoration: none;
+}
+
+div.navbar ul li {
+	display: inline-block;
+}
