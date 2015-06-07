@@ -1,6 +1,14 @@
 html {
 	-webkit-font-smoothing: antialiased;
+    /* Sorry box sixing does not work well for me */
+	/* box-sizing: border-box; */
 }
+
+/*
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+*/
 
 body {
 	background-color: LightGray;
