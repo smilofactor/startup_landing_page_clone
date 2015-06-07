@@ -8,7 +8,7 @@ div {
 
 a:link {
 	text-decoration: none;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 /* Navigation Section */
@@ -27,6 +27,17 @@ div.navbar ul.links {
   float: right;
 }
 
+div.navbar ul.links li > a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
+div.navbar ul.links li > a.active{
+	color: #4c5058;
+}
+
 div.navbar ul.links li {
 	display: inline-block;
 	margin-right: 1.6em;
@@ -35,4 +46,5 @@ div.navbar ul.links li {
 img.logo {
 	padding-left: .6em;
 	padding-top: .2em;
+	width: 1.6em;
 }
