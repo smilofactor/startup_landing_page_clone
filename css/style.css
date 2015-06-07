@@ -31,6 +31,11 @@ div.navbar ul.links {
   float: right;
 }
 
+div.navbar ul.links li {
+	display: inline-block;
+	margin-right: 1.6em;
+}
+
 div.navbar ul.links li > a {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
@@ -40,12 +45,12 @@ div.navbar ul.links li > a {
 
 div.navbar ul.links li > a.active{
 	/* font-weight: bold; */
+	font-weight: 600;
 	color: #4c5058;
 }
 
-div.navbar ul.links li {
-	display: inline-block;
-	margin-right: 1.6em;
+a:hover {
+  font-color: black;
 }
 
 img.logo {
