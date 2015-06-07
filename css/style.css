@@ -69,3 +69,10 @@ img.logo {
 	padding-top: .2em;
 	width: 1.6em;
 }
+
+section.main {
+    padding: 25em;
+	background-image: url('https://photos-1.dropbox.com/t/2/AAAPmA53oniSLaVMIIszG-bwoltagau2TKqSO0Am-sdy_A/12/357404183/jpeg/32x32/1/1433703600/0/2/first-background%20copy.jpg/CJectqoBIAEgAiADIAQgBSAGIAcoASgC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size=1280x960&size_mode=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
