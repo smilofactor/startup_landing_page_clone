@@ -46,10 +46,15 @@ div.navbar ul.links li {
 	margin-right: 1.6em;
 }
 
+div.navbar ul.links li > a,
+div.main-section > h1,
+div.main-section > h3 {
+	letter-spacing: 0.03em;
+}
+
 div.navbar ul.links li > a {
 	font-size: 1em;
 	color: #838994;
-	letter-spacing: 0.03em;
 	transition: color .5s ease;
 	-webkit-transition: color .5s ease;
 	-moz-transition: color .5s ease;
@@ -86,3 +91,4 @@ div.main-section {
 	padding-top: 9.5em;
 	font-size: 1.2em;
 }
+
