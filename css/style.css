@@ -18,7 +18,7 @@ body {
 }
 
 div {
-    border: 1px solid Chocolate;
+    /* border: 1px solid Chocolate; */
 }
 
 a:link {
@@ -170,6 +170,8 @@ section.content-section div.content-div > h2 {
 
 section.content-section div.content-div ul li {
 	margin-right: 6.6em;
+	/* margin: 0;
+	width: 33.333333%; */
 }
 
 section.content-section div.content-div ul li > h3 {
