@@ -157,11 +157,19 @@ section.content-section {
 }
 
 section.content-section > div.content-div {
-	padding-top: 5em;
+	padding-top: 6em;
 }
+
+section.content-section div.content-div > ul {
+	padding-top: 2em;
+} 
 
 section.content-section div.content-div > h2 {
 	font-size: 2.4em;
+}
+
+section.content-section div.content-div ul li {
+	margin-right: 6.6em;
 }
 
 section.content-section div.content-div ul li > h3 {
