@@ -1,10 +1,11 @@
 html {
 
-    /* Sorry box sixing does not work well for me */
-	/* box-sizing: border-box; */
+    /* Sorry box sixing does not work well for me
+    it ruins my navbar
+	box-sizing: border-box; */
 }
 
-/*
+/* 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
