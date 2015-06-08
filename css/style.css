@@ -78,11 +78,11 @@ img.logo {
 
 section.main {
 	background-image: url('media/karma_mainbackground.jpg');
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    height: 41.6rem;
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	height: 41.6rem;
 }
 
 div.main-section {
