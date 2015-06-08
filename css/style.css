@@ -30,6 +30,12 @@ section.content-section {
 	background-color: #fff;
 }
 
+div.main-div,
+div.content-div {
+	text-align: center;
+	font-size: 1.2em;
+}
+
 /* Navigation Section */
 nav.top-navigation {
 	position: fixed;
@@ -40,7 +46,7 @@ nav.top-navigation > div.navbar {
 	height: 3.1em;
 	width: 60%;
 	margin: 0 auto;
-	padding: .6em 0;
+	padding: .6em 0;f
 }
 
 div.navbar ul.links {
@@ -92,10 +98,8 @@ section.main-section {
 }
 
 div.main-div {
-	text-align: center;
 	color: #fff;
 	padding-top: 13.2em;
-	font-size: 1.2em;
 }
 
 div.main-div > button.big-button {
@@ -111,6 +115,10 @@ div.main-div > button.big-button:hover {
 	background-color: #d9400e;
 }
 
-.content-section {
+section.content-section {
 	height: 52em;
+}
+
+div.content-div {
+	padding-top: 5em;
 }
