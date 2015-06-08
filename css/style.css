@@ -14,6 +14,7 @@ body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	margin: 0;
 }
 
 div {
