@@ -41,10 +41,18 @@ div.content-div {
 	font-size: 1.2em;
 }
 
+div.navbar ul.links li > a,
+div.main-div > button.big-button {
+	transition: color 2s ease;
+	-webkit-transition: color 2s ease;
+	-moz-transition: color 2s ease;
+}
+
 /* Navigation Section */
 nav.top-navigation {
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 nav.top-navigation > div.navbar {
@@ -70,9 +78,6 @@ div.main-div > h3 {
 div.navbar ul.links li > a {
 	font-size: 1em;
 	color: #838994;
-	transition: color .5s ease;
-	-webkit-transition: color .5s ease;
-	-moz-transition: color .5s ease;
 }
 
 div.navbar ul.links li > a.active {
