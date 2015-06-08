@@ -13,13 +13,12 @@ html {
 
 body {
 	background-color: LightGray;
-	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 }
 
 div {
-	border: 1px solid Chocolate;
+    border: 1px solid Chocolate;
 }
 
 a:link {
@@ -27,68 +26,83 @@ a:link {
 	/* font-weight: bold; */
 }
 
-ul li {
-	display: inline-block;
-	margin-right: 1.6em;
-}
-
 nav.top-navigation,
+section.main-section,
 section.content-section {
+	width: 100%;
 	background-color: #fff;
 }
 
-div.main-div,
-div.content-div {
-	text-align: center;
-	font-size: 1.2em;
+nav.top-navigation > div.navbar,
+section.main-section > div.main-div,
+section.content-section > div.content-div {
+	width: 60%;
+	margin: 0 auto;
 }
 
-div.navbar ul.links li > a,
-div.main-div > button.big-button {
+nav.top-navigation div.navbar ul.links li > a,
+section.main-section div.main-div > button.big-button {
 	transition: color 2s ease;
 	-webkit-transition: color 2s ease;
 	-moz-transition: color 2s ease;
 }
 
+nav.top-navigation div.navbar ul.links li > a,
+section.main-section div.main-div > h1,
+section.main-section div.main-div > h3,
+section.content-section div.content-div > h2,
+section.content-section div.content-div ul li > h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav.top-navigation div.navbar ul.links li,
+section.content-section div.content-div ul li {
+	display: inline-block;
+	margin-right: 1.6em;
+}
+
+section.main-section > div.main-div,
+section.content-section > div.content-div {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+section.main-section div.main-div > h1,
+section.main-section div.main-div > h3,
+section.content-section div.content-div > h2 {
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
 /* Navigation Section */
 nav.top-navigation {
 	position: fixed;
-	width: 100%;
 	z-index: 9999;
 }
 
 nav.top-navigation > div.navbar {
 	height: 3.1em;
-	width: 60%;
-	margin: 0 auto;
 	padding: .6em 0;
 }
 
-div.navbar ul.links {
-  float: right;
+nav.top-navigation div.navbar > ul.links {
+	float: right;
 }
 
-div.navbar ul.links li {
-}
-
-div.navbar ul.links li > a,
-div.main-div > h1,
-div.main-div > h3 {
+nav.top-navigation div.navbar ul.links li > a {
+	font-size: 1em;
+	color: #838994;
 	letter-spacing: 0.03em;
 }
 
-div.navbar ul.links li > a {
-	font-size: 1em;
-	color: #838994;
-}
-
-div.navbar ul.links li > a.active {
+nav.top-navigation div.navbar ul.links li > a.active {
 	/* font-weight: bold; */
 	font-weight: 500;
 	color: #4c5058;
 }
 
-div.navbar ul.links li > a:hover {
+nav.top-navigation div.navbar ul.links li > a:hover {
 	color: #000;
 }
 
@@ -98,6 +112,7 @@ img.logo {
 	width: 1.6em;
 }
 
+/* Main Section */
 section.main-section {
 	background-image: url('media/karma_mainbackground.jpg');
 	background-position: center bottom;
@@ -107,28 +122,49 @@ section.main-section {
 	height: 46rem;
 }
 
-div.main-div {
+section.main-section > div.main-div {
 	color: #fff;
 	padding-top: 13.2em;
 }
 
-div.main-div > button.big-button {
+section.main-section div.main-div > h1 {
+	font-size: 2.6em;
+	margin-top: .4em;
+}
+
+section.main-section div.main-div > h3 {
+	font-size: 1.3em;
+	margin-top: .4em;
+}
+
+section.main-section div.main-div > button.big-button {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
 	padding: 16px 26px;
 	line-height: 1.33;
 	background-color: #f15a29;
+	margin-top: 1em;
 }
 
-div.main-div > button.big-button:hover {
+section.main-section div.main-div > button.big-button:hover {
 	background-color: #d9400e;
 }
 
+/* Content Section */
 section.content-section {
 	height: 52em;
 }
 
-div.content-div {
+section.content-section > div.content-div {
 	padding-top: 5em;
+}
+
+section.content-section div.content-div > h2 {
+	font-size: 2.4em;
+}
+
+section.content-section div.content-div ul li > h3 {
+	font-size: 1.2em;
+	font-weight: 400;
 }
