@@ -25,14 +25,18 @@ a:link {
 	/* font-weight: bold; */
 }
 
-/* Navigation Section */
-.top-navigation {
+nav.top-navigation,
+section.content-section {
 	background-color: #fff;
+}
+
+/* Navigation Section */
+nav.top-navigation {
 	position: fixed;
 	width: 100%;
 }
 
-.top-navigation > div.navbar {
+nav.top-navigation > div.navbar {
 	height: 3.1em;
 	width: 60%;
 	margin: 0 auto;
