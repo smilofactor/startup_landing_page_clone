@@ -47,8 +47,8 @@ div.navbar ul.links li {
 }
 
 div.navbar ul.links li > a,
-div.main-section > h1,
-div.main-section > h3 {
+div.main-div > h1,
+div.main-div > h3 {
 	letter-spacing: 0.03em;
 }
 
@@ -76,7 +76,7 @@ img.logo {
 	width: 1.6em;
 }
 
-section.main {
+section.main-section {
 	background-image: url('media/karma_mainbackground.jpg');
 	background-position: center bottom;
 	background-size: cover;
@@ -85,14 +85,14 @@ section.main {
 	height: 41.6rem;
 }
 
-div.main-section {
+div.main-div {
 	text-align: center;
 	color: #fff;
 	padding-top: 9.5em;
 	font-size: 1.2em;
 }
 
-div.main-section > button.big-button {
+div.main-div > button.big-button {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
@@ -101,7 +101,7 @@ div.main-section > button.big-button {
 	background-color: #f15a29;
 }
 
-div.main-section > button.big-button:hover {
+div.main-div > button.big-button:hover {
 	background-color: #d9400e;
 }
 
