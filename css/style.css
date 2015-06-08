@@ -1,5 +1,5 @@
 html {
-	-webkit-font-smoothing: antialiased;
+
     /* Sorry box sixing does not work well for me */
 	/* box-sizing: border-box; */
 }
@@ -12,6 +12,8 @@ html {
 
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -45,7 +47,6 @@ div.navbar ul.links li {
 }
 
 div.navbar ul.links li > a {
-	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -71,8 +72,17 @@ img.logo {
 }
 
 section.main {
-    padding: 25em;
 	background-image: url('media/karma_mainbackground.jpg');
+	background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 41.6rem;
+}
+
+div.main-section {
+	text-align: center;
+	color: #fff;
+	padding-top: 9.5em;
+	font-size: 1.2em;
 }
