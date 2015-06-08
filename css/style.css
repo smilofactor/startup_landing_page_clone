@@ -28,6 +28,8 @@ a:link {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
 }
 
 .top-navigation > div.navbar {
@@ -82,7 +84,7 @@ section.main-section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	/* background-attachment: fixed; */
-	height: 41.6rem;
+	height: 46rem;
 }
 
 div.main-div {
@@ -105,3 +107,6 @@ div.main-div > button.big-button:hover {
 	background-color: #d9400e;
 }
 
+.content-section {
+	height: 52em;
+}
