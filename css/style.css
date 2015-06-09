@@ -60,7 +60,8 @@ footer div.footer-div > h5 {
 }
 
 nav.top-navigation div.navbar ul.links li,
-section.cases div.content-div ul li {
+section.cases div.content-div ul li,
+footer div.footer-div ul.icons li {
 	display: inline-block;
 	margin-right: 1.6em;
 }
