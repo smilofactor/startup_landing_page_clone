@@ -184,8 +184,29 @@ section.cases div.content-div ul li > h3 {
 	font-weight: 400;
 }
 
-footer div.footer-div > h5 {
-	font-weight: 400;
+footer div.footer-div ul.icons li {
+	margin-right: .5em;
+}
+
+footer div.footer-div ul.icons li > i {
+	width: 2em;
+	height: 2em;
+	line-height: 2;
+	border: 1px solid #eaebec;
+	border-radius: 20px;
+}
+
+
+.footer-h5 {
 	margin: 0;
 	padding: 0;
+}
+
+footer div.footer-div > h5 {
+	font-weight: 400;
+}
+
+footer div.footer-div span.footer-span > h5 {
+	color: #838994;
+	font-weight: 300;
 }
