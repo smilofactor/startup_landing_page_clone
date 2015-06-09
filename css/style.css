@@ -28,14 +28,16 @@ a:link {
 
 nav.top-navigation,
 section.main-section,
-section.cases {
+section.cases,
+footer {
 	width: 100%;
 	background-color: #fff;
 }
 
 nav.top-navigation > div.navbar,
 section.main-section > div.main-div,
-section.cases > div.content-div {
+section.cases > div.content-div,
+footer > div.footer-div {
 	width: 60%;
 	margin: 0 auto;
 }
@@ -72,8 +74,7 @@ footer > div.footer-div {
 
 section.main-section div.main-div > h1,
 section.main-section div.main-div > h3,
-section.cases div.content-div > h2,
-footer div.footer-div > h5 {
+section.cases div.content-div > h2 {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
@@ -180,4 +181,10 @@ section.cases div.content-div ul li {
 section.cases div.content-div ul li > h3 {
 	font-size: 1.2em;
 	font-weight: 400;
+}
+
+footer div.footer-div > h5 {
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
 }
