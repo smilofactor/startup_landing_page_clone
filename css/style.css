@@ -163,8 +163,7 @@ section.cases > div.content-div {
 
 section.cases div.content-div > ul {
 	padding-top: 2em;
-	padding-left: 0;
-} 
+}
 
 section.cases div.content-div > h2 {
 	font-size: 2.3em;
@@ -172,8 +171,6 @@ section.cases div.content-div > h2 {
 
 section.cases div.content-div ul li {
 	margin-right: 6.6em;
-	/* margin: 0;
-	width: 33.333333%; */
 }
 
 section.cases div.content-div ul li > h3 {
