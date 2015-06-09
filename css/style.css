@@ -52,7 +52,8 @@ nav.top-navigation div.navbar ul.links li > a,
 .main-h1,
 section.main-section div.main-div > h3,
 section.cases div.content-div > h2,
-section.cases div.content-div ul li > h3 {
+section.cases div.content-div ul li > h3,
+footer div.footer-div > h5 {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -63,14 +64,16 @@ section.cases div.content-div ul li {
 }
 
 section.main-section > div.main-div,
-section.cases > div.content-div {
+section.cases > div.content-div,
+footer > div.footer-div {
 	text-align: center;
 	font-size: 1.2em;
 }
 
 section.main-section div.main-div > h1,
 section.main-section div.main-div > h3,
-section.cases div.content-div > h2 {
+section.cases div.content-div > h2,
+footer div.footer-div > h5 {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
