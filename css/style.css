@@ -85,6 +85,7 @@ section.cases div.content-div > h2 {
 nav.top-navigation {
 	position: fixed;
 	z-index: 9999;
+	border-bottom: 1px solid #dddddd;
 }
 
 nav.top-navigation > div.navbar {
@@ -186,6 +187,22 @@ section.cases div.content-div ul li > h3 {
 	font-weight: 400;
 }
 
+/* Footer Section */
+
+footer {
+	padding-bottom: 8.6em;
+}
+
+footer div.footer-div {
+	border-top: 1px solid #eaebec;
+	padding: 1.3em 0;
+}
+
+footer div.footer-div > .topic-split {
+	/* border-top: 1px solid #eaebec;
+	margin: 1.3em 0; */
+}
+
 footer div.footer-div ul.icons li {
 	margin-right: .5em;
 }
@@ -198,7 +215,6 @@ footer div.footer-div ul.icons li > i {
 	border-radius: 20px;
 	box-shadow: 1px 1px 0 #f9b49f;
 }
-
 
 .footer-h5 {
 	margin: 0;
