@@ -28,14 +28,14 @@ a:link {
 
 nav.top-navigation,
 section.main-section,
-section.content-section {
+section.cases {
 	width: 100%;
 	background-color: #fff;
 }
 
 nav.top-navigation > div.navbar,
 section.main-section > div.main-div,
-section.content-section > div.content-div {
+section.cases > div.content-div {
 	width: 60%;
 	margin: 0 auto;
 }
@@ -51,26 +51,26 @@ section.main-section div.main-div > button.big-button {
 nav.top-navigation div.navbar ul.links li > a,
 .main-h1,
 section.main-section div.main-div > h3,
-section.content-section div.content-div > h2,
-section.content-section div.content-div ul li > h3 {
+section.cases div.content-div > h2,
+section.cases div.content-div ul li > h3 {
 	font-family: 'Roboto', sans-serif;
 }
 
 nav.top-navigation div.navbar ul.links li,
-section.content-section div.content-div ul li {
+section.cases div.content-div ul li {
 	display: inline-block;
 	margin-right: 1.6em;
 }
 
 section.main-section > div.main-div,
-section.content-section > div.content-div {
+section.cases > div.content-div {
 	text-align: center;
 	font-size: 1.2em;
 }
 
 section.main-section div.main-div > h1,
 section.main-section div.main-div > h3,
-section.content-section div.content-div > h2 {
+section.cases div.content-div > h2 {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
@@ -153,29 +153,30 @@ section.main-section div.main-div > button.big-button:hover {
 }
 
 /* Content Section */
-section.content-section {
-	height: 52em;
+section.cases {
+	/* height: 52em; */
 }
 
-section.content-section > div.content-div {
+section.cases > div.content-div {
 	padding-top: 6em;
 }
 
-section.content-section div.content-div > ul {
+section.cases div.content-div > ul {
 	padding-top: 2em;
+	padding-left: 0;
 } 
 
-section.content-section div.content-div > h2 {
-	font-size: 2.4em;
+section.cases div.content-div > h2 {
+	font-size: 2.3em;
 }
 
-section.content-section div.content-div ul li {
+section.cases div.content-div ul li {
 	margin-right: 6.6em;
 	/* margin: 0;
 	width: 33.333333%; */
 }
 
-section.content-section div.content-div ul li > h3 {
+section.cases div.content-div ul li > h3 {
 	font-size: 1.2em;
 	font-weight: 400;
 }
