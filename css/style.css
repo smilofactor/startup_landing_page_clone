@@ -155,6 +155,7 @@ section.main-section div.main-div > button.big-button:hover {
 /* Content Section */
 section.cases {
 	/* height: 52em; */
+	padding-bottom: 5em;
 }
 
 section.cases > div.content-div {
