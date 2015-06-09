@@ -100,6 +100,7 @@ nav.top-navigation div.navbar ul.links li > a {
 	font-size: 1em;
 	color: #838994;
 	letter-spacing: 0.03em;
+	/* text-shadow: 1px 1px 1px #f9b49f; */
 }
 
 nav.top-navigation div.navbar ul.links li > a.active {
@@ -155,6 +156,7 @@ section.main-section div.main-div > button.big-button {
 
 section.main-section div.main-div > button.big-button:hover {
 	background-color: #d9400e;
+	box-shadow: 1px 1px 0 #f9b49f;
 }
 
 /* Content Section */
@@ -194,6 +196,7 @@ footer div.footer-div ul.icons li > i {
 	line-height: 2;
 	border: 1px solid #eaebec;
 	border-radius: 20px;
+	box-shadow: 1px 1px 0 #f9b49f;
 }
 
 
