@@ -152,10 +152,12 @@ div.main-div div.button > button.big-button {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 16px 26px;
+	padding: 15px 30px;
 	line-height: 1.33;
 	background-color: #f15a29;
 	margin-top: 1em;
+    color: #fff;
+    font-size: 1em;
 }
 
 div.main-div div.button > button.big-button:hover {
