@@ -63,7 +63,7 @@ nav.top-navigation div.navbar ul.links li,
 section.cases div.content-div ul li,
 footer div.footer-div ul.icons li {
 	display: inline-block;
-	margin-right: 1.6em;
+	/* margin-right: 1.6em; */
 }
 
 section.main-section > div.main-div,
@@ -95,6 +95,10 @@ nav.top-navigation > div.navbar {
 
 nav.top-navigation div.navbar > ul.links {
 	float: right;
+}
+
+nav.top-navigation div.navbar ul.links li {
+    margin-right: 1.6em;
 }
 
 nav.top-navigation div.navbar ul.links li > a {
@@ -181,7 +185,8 @@ section.cases div.content-div > h2 {
 }
 
 section.cases div.content-div ul li {
-	margin-right: 6.6em;
+	/* margin-right: 6.6em; */
+    margin: 0 3.3em;
 }
 
 section.cases div.content-div ul li > h3 {
