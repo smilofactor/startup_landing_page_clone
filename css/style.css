@@ -43,7 +43,7 @@ footer > div.footer-div {
 }
 
 nav.top-navigation div.navbar ul.links li > a,
-section.main-section div.main-div > button.big-button {
+div.main-div div.button > button.big-button {
 	transition: color 2s ease;
 	-webkit-transition: color 2s ease;
 	-moz-transition: color 2s ease;
@@ -145,17 +145,19 @@ section.main-section div.main-div > h3 {
 	margin-top: .4em;
 }
 
-section.main-section div.main-div > button.big-button {
+div.main-div div.button > button.big-button {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 16px 26px;
+	padding: 15px 30px;
 	line-height: 1.33;
 	background-color: #f15a29;
 	margin-top: 1em;
+    color: #fff;
+    font-size: 1em;
 }
 
-section.main-section div.main-div > button.big-button:hover {
+div.main-div div.button > button.big-button:hover {
 	background-color: #d9400e;
 	box-shadow: 1px 1px 0 #f9b49f;
 }
