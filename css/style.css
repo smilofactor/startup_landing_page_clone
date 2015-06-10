@@ -220,7 +220,7 @@ footer div.footer-div ul.icons li > i {
 	line-height: 2;
 	border: 1px solid #eaebec;
 	border-radius: 20px;
-	box-shadow: 1px 1px 0 #f9b49f;
+	/* box-shadow: 1px 1px 0 #f9b49f; */
 }
 
 .footer-h5 {
