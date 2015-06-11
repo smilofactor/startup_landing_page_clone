@@ -281,8 +281,9 @@ footer div.footer-div span.footer-span > h5 {
 	    background-position: center bottom;
 	    background-size: cover;
 	    background-repeat: no-repeat;
-        height: 40em;
         max-width: 100%;
+        height: auto;
+        /* height: 40em; */
     }
 
 
