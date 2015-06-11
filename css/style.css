@@ -85,6 +85,7 @@ section.cases div.content-div > h2 {
 nav.top-navigation {
 	position: fixed;
 	z-index: 9999;
+    border-bottom: 1px solid #ddd;
 }
 
 nav.top-navigation > div.navbar {
