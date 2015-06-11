@@ -271,8 +271,8 @@ footer div.footer-div span.footer-span > h5 {
     }
 
     .cases div.content-div ul li > img {
-        width: 70%;
-        height: 70%;
+        max-width: 70%;
+        height: auto;
     }
 
     /* Main Section */
