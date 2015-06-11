@@ -199,6 +199,11 @@ footer {
     padding-bottom: 8.6em;
 }
 
+footer div.footer-div {
+    border-top: 1px solid #eaebec;
+    padding: 1.3em 0;
+}
+
 footer div.footer-div ul.icons {
     margin: 0;
 }
