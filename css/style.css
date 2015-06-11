@@ -250,7 +250,7 @@ footer div.footer-div span.footer-span > h5 {
 */
 
 
-@media (max-width: 80em) {
+@media (max-width: 75em) {
 
     nav.top-navigation > div.navbar,
     section.main-section > div.main-div,
@@ -282,9 +282,13 @@ footer div.footer-div span.footer-span > h5 {
         font-size: 80%;
     }
 
+    .top-navigation .navbar .links > li {
+        font-size: 1.2em;
+    }
+
     .cases div.content-div ul li{
 	    display: inherit;
-	    margin: 0 auto;
+	    margin: 1em auto 0;
     }
 
     nav.top-navigation > div.navbar,
